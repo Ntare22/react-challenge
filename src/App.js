@@ -15,7 +15,9 @@ function App() {
     <div className="container">
       <h1>Code with Nelly Sugu</h1>
       <SearchBar onSearch={onSearch} />
-      <Photos photos={photos}/>
+      <div className='photos'>
+        <Photos photos={photos}/>
+      </div>
     </div>
   );
 }
