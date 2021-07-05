@@ -15,6 +15,7 @@ const SearchBar = ({ onSearch }) => {
     <form className="search-form" onSubmit={onSubmit}>
         <div >
         <input
+            className="search-input"
             type="id"
             placeholder="Search Photos"
             value={id}

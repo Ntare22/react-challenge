@@ -1,7 +1,7 @@
 const Photo = ({ photo }) => {
     return (
         <div className='photo'>
-            <h2>{photo.title}</h2>
+            <h5>{photo.title}</h5>
             <img src={photo.thumbnailUrl} alt='thumbnail'/>
         </div>
     )
