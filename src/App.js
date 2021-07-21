@@ -7,7 +7,7 @@ function App() {
 
   const onSearch = async (userId) => {
     const { id } = userId
-    const res = await fetch(`https://jsonplaceholder.typicode.com/albums/${id}/photos`)
+    const res = await fetch(`https://api-challenge-nest.herokuapp.com/album/${id}/photos`)
     const data = await res.json();
     setPhotos(data)
   }
